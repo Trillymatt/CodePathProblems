@@ -1,0 +1,87 @@
+# lst = ["pooh", "christopher robin", "piglet", "roo", "eeyore"]
+
+# def reverse_list(lst):
+#     l = 0
+#     r = len(lst) - 1 
+
+#     while r > l:
+#         tem = lst[l]
+#         lst[l] = lst[r]
+#         lst[r] = tem
+
+#         r -= 1
+#         l += 1
+
+#     return
+
+# print(reverse_list(lst))
+
+# items = ["extract of malt", "haycorns", "honey", "thistle", "thistle"]
+
+# def remove_dupes(items):
+#     map = {}
+#     for i in range(len(items)):
+#         if item is not map:
+#              map[item[i]] = 1
+#              if item is map:
+#                  items.pop(i)
+#                  i -= 1
+
+
+
+
+# print(remove_dupes(items))
+
+
+# def sort_by_parity(nums):
+#     evenNums = []
+#     oddNums = []
+
+#     for i in range(len(nums)):
+#         if (nums[i] % 2) == 0:
+#             evenNums.append(nums[i])
+
+#         else:
+#             oddNums.append(nums[i])
+
+#     return evenNums + oddNums
+
+# nums = [3, 1, 2, 4]
+# print(sort_by_parity(nums))
+
+# nums = [0]
+# print(sort_by_parity(nums))
+
+
+
+# def most_endangered(species_list):
+    
+#     tempdict = species_list[0]
+#     for i in species_list[1:]:
+#         if i["population"] < tempdict["population"]:
+#             tempdict = i
+#     return tempdict["name"]
+
+            
+
+# species_list = [
+#     {"name": "Amur Leopard",
+#      "habitat": "Temperate forests",
+#      "population": 84
+#     },
+#     {"name": "Javan Rhino",
+#      "habitat": "Tropical forests",
+#      "population": 72
+#     },
+#     {"name": "Vaquita",
+#      "habitat": "Marine",
+#      "population": 10
+#     }
+# ]
+
+# print(most_endangered(species_list))
+
+
+
+def count_endangered_species(endangered_species, observed_species):
+    
