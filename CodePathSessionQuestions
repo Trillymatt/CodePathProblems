@@ -83,5 +83,22 @@
 
 
 
-def count_endangered_species(endangered_species, observed_species):
+# def count_endangered_species(endangered_species, observed_species):
     
+# >>> dict_a = {'a': 1, 'b': 2}
+# >>> dict_b = {'b': 3, 'c': 4}
+# >>> dict_c = {**dict_a, **dict_b}
+# >>> dict_c
+
+# duplicates.update({next_item : venue2_schedule[next_item]})
+
+# def best_set(votes):
+    
+#     dict = {}
+#     for items in votes:
+#         if items.value != dict.get(items.value):
+            
+#         else: 
+#             count += 1
+#             items.update({items.value: count})
+            
