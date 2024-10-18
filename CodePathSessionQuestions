@@ -101,4 +101,107 @@
 #         else: 
 #             count += 1
 #             items.update({items.value: count})
+
+
+# def extract_nft_names(nft_collection):
+#     nft_names = []
+#     for nft in nft_collection:
+#         nft_names.append(nft["name"])
+#     return nft_names
+
+# nft_collection = [
+#     {"name": "Abstract Horizon", "creator": "ArtByAlex", "value": 5.4},
+#     {"name": "Pixel Dreams", "creator": "DreamyPixel", "value": 7.2}
+# ]
+
+# nft_collection_2 = [
+#     {"name": "Golden Hour", "creator": "SunsetArtist", "value": 8.9}
+# ]
+
+# nft_collection_3 = []
+
+# print(extract_nft_names(nft_collection))
+# print(extract_nft_names(nft_collection_2))
+# print(extract_nft_names(nft_collection_3))
+
+# def process_nft_queue(nft_queue):
+    
+
+
+# nft_queue = [
+#     {"name": "Abstract Horizon", "processing_time": 2},
+#     {"name": "Pixel Dreams", "processing_time": 3},
+#     {"name": "Urban Jungle", "processing_time": 1}
+# ]
+# print(process_nft_queue(nft_queue))
+
+# nft_queue_2 = [
+#     {"name": "Golden Hour", "processing_time": 4},
+#     {"name": "Sunset Serenade", "processing_time": 2},
+#     {"name": "Ocean Waves", "processing_time": 3}
+# ]
+# print(process_nft_queue(nft_queue_2))
+
+# nft_queue_3 = [
+#     {"name": "Crypto Kitty", "processing_time": 5},
+#     {"name": "Galactic Voyage", "processing_time": 6}
+# ]
+# print(process_nft_queue(nft_queue_3))
+
+# def validate_nft_actions(actions):
+#     x = []
+#     if actions[0] == "remove":
+#         return False
+#     else:
+#         for action in actions:
+#             if action == "add":
+#                 x.append(action)
+#             if action == "remove":
+#                 if not x:
+#                     return False
+#                 else:
+#                     x.pop()
+#         if len(x) == 0:
+#             return True
+#         else:
+#             return False
+
             
+
+
+
+# actions = ["add", "add", "remove", "remove"]
+# actions_2 = ["add", "remove", "add", "remove"]
+# actions_3 = ["add", "remove", "remove", "add"]
+
+# print(validate_nft_actions(actions))
+# print(validate_nft_actions(actions_2))
+# print(validate_nft_actions(actions_3))
+
+
+# class Villager:
+#     def __init__(self, name, species, catchphrase):
+#         self.name = name
+#         self.species = species
+#         self.catchphrase = catchphrase
+#         self.furniture = []
+    
+
+# bones = Villager("Bones", "Dog", "yip yip")
+
+
+# print(apollo.name)  
+# print(apollo.species)  
+# print(apollo.catchphrase) 
+# print(apollo.furniture) 
+
+# def greet_player(self, player_name):
+#     return f"{self.name}: Hey there, {player_name}! How's it going, {self.catchphrase}!"
+
+
+# print(bones.name)
+# print(bones.species)  
+# print(bones.catchphrase) 
+# print(bones.furniture) 
+
+# print(greet_player(bones, "matt"))
